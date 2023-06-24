@@ -2,6 +2,7 @@ import pandas as pd  # まずはpandasモジュールを準備する．
 from sklearn.linear_model import LinearRegression
 import streamlit as st
 # csvファイルからデータ読み込み
+st.title("タイトルです。")
 df = pd.read_csv("http://logopt.com/data/Advertising.csv", index_col=0) #0行目をインデックスにする
 df.tail()
 y = df["Sales"]
