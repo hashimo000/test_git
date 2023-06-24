@@ -1,3 +1,4 @@
+st.title("タイトルです。")
 import pandas as pd  # まずはpandasモジュールを準備する．
 from sklearn.linear_model import LinearRegression
 import streamlit as st
